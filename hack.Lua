@@ -71,20 +71,3 @@ local Window = ArrayField:CreateWindow({
      game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
     end,
  })
-
- local Tab = Window:CreateTab("AIMBOT", 4483362458) -- Title, Image
-
- local Button = Tab:CreateButton({
-	Name = "AIMBOT",
-	Callback = function(_G.Aimbot = true;
-		_G.Config = {
-			['Method'] = "mouse", -- Mouse / Nearest
-			['Fov'] = 350,
-			['Circle'] = True,
-			['Max Distantce'] = 3000,
-			['Walk On Water'] = true,
-			['Semi Mink'] = true
-		};
-	-- The function that takes place when the button is pressed
-	end,
- })
